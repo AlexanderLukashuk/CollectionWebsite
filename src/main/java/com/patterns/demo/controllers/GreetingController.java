@@ -17,7 +17,7 @@ public class GreetingController {
     }
 
     @GetMapping("/collections-list")
-    public String makecollection(Model model) {
+    public String collectionsListMain(Model model) {
         model.addAttribute("title", "Make collection");
         return "collections-list-main";
     }
