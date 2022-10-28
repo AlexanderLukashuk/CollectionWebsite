@@ -16,4 +16,10 @@ public class GreetingController {
         return "greeting";
     }
 
+    @GetMapping("/makecollection")
+    public String makecollection(Model model) {
+        model.addAttribute("title", "Make collection");
+        return "greeting";
+    }
+
 }
