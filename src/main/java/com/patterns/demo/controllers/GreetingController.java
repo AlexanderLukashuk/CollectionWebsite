@@ -16,10 +16,10 @@ public class GreetingController {
         return "greeting";
     }
 
-    @GetMapping("/collections-list")
-    public String collectionsListMain(Model model) {
-        model.addAttribute("title", "Make collection");
-        return "collections-list-main";
-    }
+//    @GetMapping("/collections-list")
+//    public String collectionsListMain(Model model) {
+//        model.addAttribute("title", "Make collection");
+//        return "collections-list-main";
+//    }
 
 }
