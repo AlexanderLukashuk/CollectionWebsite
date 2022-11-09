@@ -1,6 +1,6 @@
 package com.patterns.demo.models.Entities;
 
-import Interfaces.ICar;
+import com.patterns.demo.models.Interfaces.ICar;
 
 public abstract class Car extends Item implements ICar {
     public String Model;

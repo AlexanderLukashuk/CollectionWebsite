@@ -1,7 +1,7 @@
 package com.patterns.demo.models.Entities;
 
-import Interfaces.IGame;
-import Interfaces.MyCollectionInterfaces.CreativeActivity;
+import com.patterns.demo.models.Interfaces.IGame;
+import com.patterns.demo.models.Interfaces.MyCollectionInterfaces.CreativeActivity;
 
 public abstract class Game extends CreativeActivity implements IGame {
 

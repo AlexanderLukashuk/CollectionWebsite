@@ -1,7 +1,7 @@
 package com.patterns.demo.models.Database;
 
-import Database.Interfaces.IDB;
-import Entities.User;
+import com.patterns.demo.models.Database.Interfaces.IDB;
+import com.patterns.demo.models.Entities.User;
 
 import java.sql.*;
 import java.util.ArrayList;

@@ -1,7 +1,7 @@
 package com.patterns.demo.models.Observer;
 
-import Observer.Interfaces.IObserver;
-import Observer.Interfaces.ISubject;
+import com.patterns.demo.models.Observer.Interfaces.IObserver;
+import com.patterns.demo.models.Observer.Interfaces.ISubject;
 
 public class MyCollectionSubsciber implements IObserver {
 

@@ -1,10 +1,10 @@
 package com.patterns.demo.models;
 
-import Entities.CollectionTypes;
-import Entities.Item;
-import Interfaces.MyCollectionInterfaces.Buy;
-import Observer.Interfaces.IObserver;
-import Observer.Interfaces.ISubject;
+import com.patterns.demo.models.Entities.CollectionTypes;
+import com.patterns.demo.models.Entities.Item;
+import com.patterns.demo.models.Interfaces.MyCollectionInterfaces.Buy;
+import com.patterns.demo.models.Observer.Interfaces.IObserver;
+import com.patterns.demo.models.Observer.Interfaces.ISubject;
 
 import java.util.ArrayList;
 import java.util.List;

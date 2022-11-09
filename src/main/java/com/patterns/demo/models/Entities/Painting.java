@@ -1,6 +1,6 @@
 package com.patterns.demo.models.Entities;
 
-import Interfaces.MyCollectionInterfaces.CreativeActivity;
+import com.patterns.demo.models.Interfaces.MyCollectionInterfaces.CreativeActivity;
 
 public class Painting extends CreativeActivity {
 

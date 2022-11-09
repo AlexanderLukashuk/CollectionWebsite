@@ -1,6 +1,6 @@
 package com.patterns.demo.models.Factory;
 
-import Factory.Interfaces.Collection;
+import com.patterns.demo.models.Factory.Interfaces.Collection;
 
 public abstract class CollectionFactory2 {
     public void orderCollection() {

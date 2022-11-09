@@ -1,18 +1,13 @@
 package com.patterns.demo.models.Factory;
 
-import Database.DB;
-import Entities.*;
-import Entities.Books.PsychologicalBook;
-import Entities.Books.RomanceBook;
-import Entities.Books.SciFiBook;
-import Entities.Books.SubBookDecorator.AdditionalEditionBook;
-import Entities.Books.SubBookDecorator.LimitedCollectionBook;
-import Entities.Books.SubBookDecorator.SignatureBook;
-import Entities.Cars.BasicCar;
-import Entities.Cars.CarsFeatures.CarMotor;
-import Entities.Cars.CarsFeatures.EngineCapacity;
-import Entities.Cars.LuxuryCar;
-import Entities.Cars.SportCar;
+import com.patterns.demo.models.Database.DB;
+import com.patterns.demo.models.Entities.Books.PsychologicalBook;
+import com.patterns.demo.models.Entities.Books.RomanceBook;
+import com.patterns.demo.models.Entities.Books.SciFiBook;
+import com.patterns.demo.models.Entities.Books.SubBookDecorator.AdditionalEditionBook;
+import com.patterns.demo.models.Entities.Books.SubBookDecorator.LimitedCollectionBook;
+import com.patterns.demo.models.Entities.Books.SubBookDecorator.SignatureBook;
+import com.patterns.demo.models.Entities.Item;
 
 import java.util.ArrayList;
 import java.util.Scanner;

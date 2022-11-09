@@ -1,7 +1,8 @@
 package com.patterns.demo.models.Decorator;
 
-import Entities.Car;
-import Interfaces.ICar;
+//import Entities.Car;
+//import Interfaces.ICar;
+import com.patterns.demo.models.Entities.Car;
 
 //public class CarDecorator implements ICar {
 public abstract class CarDecorator extends Car {

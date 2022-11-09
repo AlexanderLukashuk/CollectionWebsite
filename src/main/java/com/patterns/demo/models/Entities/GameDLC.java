@@ -1,7 +1,6 @@
 package com.patterns.demo.models.Entities;
 
-import Decorator.GameDecorator;
-import Interfaces.IGame;
+import com.patterns.demo.models.Decorator.GameDecorator;
 
 public class GameDLC extends GameDecorator {
 

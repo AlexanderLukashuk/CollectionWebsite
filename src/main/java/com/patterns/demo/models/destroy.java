@@ -1,6 +1,6 @@
 package com.patterns.demo.models;
 
-import Entities.Item;
+import com.patterns.demo.models.Entities.Item;
 
 import java.util.ArrayList;
 import java.util.List;

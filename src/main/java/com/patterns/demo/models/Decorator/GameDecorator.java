@@ -1,7 +1,8 @@
 package com.patterns.demo.models.Decorator;
 
-import Entities.Game;
-import Interfaces.IGame;
+//import Entities.Game;
+//import Interfaces.IGame;
+import com.patterns.demo.models.Entities.Game;
 
 public abstract class GameDecorator extends Game {
 

@@ -1,7 +1,7 @@
 package com.patterns.demo.models.Entities.Cars.CarsFeatures;
 
-import Decorator.CarDecorator;
-import Entities.Car;
+import com.patterns.demo.models.Decorator.CarDecorator;
+import com.patterns.demo.models.Entities.Car;
 
 public class CarMotor extends CarDecorator {
 
